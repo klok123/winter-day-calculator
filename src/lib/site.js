@@ -1,4 +1,4 @@
-export const SITE_URL = 'https://winterdaycalculator.com';
+export const SITE_URL = 'https://www.winterdaycalculator.com';
 export const SITE_NAME = 'Winter Day Calculator';
 export const SITE_DESCRIPTION = 'Snow day calculator and school closing predictor for the United States and Canada. Estimate closure risk from snowfall, temperature, and wind in one place.';
 export const SITE_TAGLINE = 'Track local snow day risk with forecast-based school closing insights.';
