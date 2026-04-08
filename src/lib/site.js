@@ -56,8 +56,15 @@ export const SUPPORT_PAGES = [
     description: 'Answers about forecast confidence, school closures, and local planning.'
   },
   {
+    href: '/guides/preparing-for-snow-days',
+    title: 'Family Snow Day Guide',
+    navLabel: 'Family Guide',
+    description: 'A practical guide for families getting ready for a possible snow day.'
+  },
+  {
     href: '/about',
     title: 'About Winter Day Calculator',
+    navLabel: 'About',
     description: 'What the tool does, who it is for, and how to use it responsibly.'
   }
 ];

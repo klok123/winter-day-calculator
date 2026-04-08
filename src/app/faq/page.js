@@ -102,6 +102,7 @@ export default function FaqPage() {
         <section className="content-section">
           <div className="inline-actions">
             <Link href="/methodology" className="text-link">See the methodology</Link>
+            <Link href="/guides/preparing-for-snow-days" className="text-link">Read the family guide</Link>
             <Link href="/" className="text-link">Use the calculator</Link>
           </div>
         </section>

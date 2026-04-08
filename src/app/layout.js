@@ -68,7 +68,7 @@ export default function RootLayout({ children }) {
                 <nav className="footer-links" aria-label="Core site links">
                   {SUPPORT_PAGES.map((page) => (
                     <Link key={page.href} href={page.href}>
-                      {page.title}
+                      {page.navLabel || page.title}
                     </Link>
                   ))}
                 </nav>

@@ -13,7 +13,7 @@ export function SiteHeader() {
         <nav className="top-links" aria-label="Primary">
           {SUPPORT_PAGES.map((page) => (
             <Link key={page.href} href={page.href}>
-              {page.title}
+              {page.navLabel || page.title}
             </Link>
           ))}
         </nav>
