@@ -62,6 +62,12 @@ export const SUPPORT_PAGES = [
     description: 'A practical guide for families getting ready for a possible snow day.'
   },
   {
+    href: '/contact-us',
+    title: 'Contact Winter Day Calculator',
+    navLabel: 'Contact',
+    description: 'The best way to report a site issue, broken forecast page, or indexing problem.'
+  },
+  {
     href: '/about',
     title: 'About Winter Day Calculator',
     navLabel: 'About',

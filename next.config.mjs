@@ -22,6 +22,46 @@ const nextConfig = {
         destination: '/guides/preparing-for-snow-days',
         permanent: true,
       },
+      {
+        source: '/blog/evolution-of-snow-days.html',
+        destination: '/guides/preparing-for-snow-days',
+        permanent: true,
+      },
+      {
+        source: '/index.html',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/contact',
+        destination: '/contact-us',
+        permanent: true,
+      },
+      {
+        source: '/contact/',
+        destination: '/contact-us',
+        permanent: true,
+      },
+      {
+        source: '/form/simple-contact-form',
+        destination: '/contact-us',
+        permanent: true,
+      },
+      {
+        source: '/form/simple-contact-form/',
+        destination: '/contact-us',
+        permanent: true,
+      },
+      {
+        source: '/author/:slug',
+        destination: '/about',
+        permanent: true,
+      },
+      {
+        source: '/author/:slug/',
+        destination: '/about',
+        permanent: true,
+      },
     ];
   },
 };
