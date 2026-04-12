@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { SiteHeader } from '@/components/SiteHeader';
+import { FeedbackForm } from '@/components/FeedbackForm';
 import { StructuredData } from '@/components/StructuredData';
 import { DEFAULT_OG_IMAGE, DEFAULT_TWITTER_IMAGE, SITE_NAME, SITE_URL } from '@/lib/site';
 
@@ -103,6 +104,8 @@ export default function ContactUsPage() {
             </article>
           </div>
         </section>
+
+        <FeedbackForm />
 
         <section className="content-section">
           <div className="inline-actions">
