@@ -1,6 +1,7 @@
 import './globals.css';
 import Link from 'next/link';
 import { Outfit } from 'next/font/google';
+import { GoogleAnalytics } from '@next/third-parties/google';
 import { ClientWrapper } from '@/components/ClientWrapper';
 import { DEFAULT_OG_IMAGE, DEFAULT_TWITTER_IMAGE, SITE_DESCRIPTION, SITE_NAME, SITE_URL, STATE_GUIDES, SUPPORT_PAGES } from '@/lib/site';
 
@@ -49,6 +50,8 @@ export const viewport = {
 };
 
 export default function RootLayout({ children }) {
+  const gaMeasurementId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
+
   return (
     <html lang="en" className={outfit.variable}>
       <body>
@@ -88,6 +91,7 @@ export default function RootLayout({ children }) {
           </footer>
         </ClientWrapper>
       </body>
+      {gaMeasurementId ? <GoogleAnalytics gaId={gaMeasurementId} /> : null}
     </html>
   );
 }

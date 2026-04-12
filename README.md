@@ -1,24 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is the source for [Winter Day Calculator](https://www.winterdaycalculator.com), a Next.js app focused on snow day estimates, local winter forecast pages, and school-closure planning guides for the United States and Canada.
 
 ## Getting Started
 
-First, run the development server:
+First, install dependencies and run the development server:
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Google Analytics
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The site is wired for Google Analytics 4 using Next.js' recommended `@next/third-parties/google` integration.
+
+To enable it locally, create a `.env.local` file with:
+
+```bash
+NEXT_PUBLIC_GA_MEASUREMENT_ID=G-XXXXXXXXXX
+```
+
+To enable it on Vercel, add the same environment variable in the project settings and redeploy.
+
+If the variable is missing, Google Analytics will not load.
 
 ## Learn More
 
