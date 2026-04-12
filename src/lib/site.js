@@ -92,6 +92,13 @@ export const SUPPORT_PAGES = [
     description: 'Understand why districts sometimes delay the start instead of canceling school completely.'
   },
   {
+    href: '/press',
+    title: 'Press and Resource Page',
+    navLabel: 'Press',
+    showInHeader: false,
+    description: 'A simple page for bloggers, newsrooms, and community sites who want to reference Winter Day Calculator clearly.'
+  },
+  {
     href: '/contact-us',
     title: 'Contact Winter Day Calculator',
     navLabel: 'Contact',
