@@ -96,9 +96,9 @@ export default function ContactUsPage() {
         <section className="content-section">
           <div className="faq-list">
             <article className="section-card faq-card">
-              <h3>Best next step for search-related issues</h3>
+              <h3>What kind of feedback helps most?</h3>
               <p>
-                If the issue is happening inside Google Search, keep the Search Console URL, the old page URL, and a screenshot together. That makes cleanup and validation much faster.
+                The most helpful feedback is simple and specific: tell us the city page, what looked wrong, and what you expected to see. If you noticed a forecast issue, include the date and whether your district delayed, closed, or stayed open.
               </p>
             </article>
           </div>
