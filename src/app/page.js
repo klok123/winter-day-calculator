@@ -103,10 +103,10 @@ export default function HomePage() {
         <section className="content-section">
           <div className="section-heading">
             <p className="eyebrow">Popular winter cities</p>
-            <h2>City pages with weather patterns worth checking early.</h2>
+            <h2>Featured city pages with weather patterns worth checking early.</h2>
           </div>
           <div className="guide-grid">
-            {POPULAR_LOCATIONS.map((location) => (
+            {POPULAR_LOCATIONS.filter((location) => location.showOnHome !== false).map((location) => (
               <Link key={location.slug} href={`/prediction/${location.slug}`} className="section-card link-card">
                 <h3>{location.city}, {location.regionCode}</h3>
                 <p>{location.reason}</p>
@@ -135,7 +135,7 @@ export default function HomePage() {
         <section className="content-section">
           <div className="section-heading">
             <p className="eyebrow">Support content</p>
-            <h2>Key pages that explain how the estimate works.</h2>
+            <h2>Key pages that explain the estimate and the real school-morning decision.</h2>
           </div>
           <div className="support-grid">
             {SUPPORT_PAGES.map((page) => (

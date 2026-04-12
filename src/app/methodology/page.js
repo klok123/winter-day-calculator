@@ -140,6 +140,8 @@ export default function MethodologyPage() {
         <section className="content-section">
           <div className="inline-actions">
             <Link href="/faq" className="text-link">Read the snow day FAQ</Link>
+            <Link href="/guides/how-schools-decide-snow-days" className="text-link">See how districts decide</Link>
+            <Link href="/guides/snow-vs-ice-school-closures" className="text-link">Compare snow vs ice risk</Link>
             <Link href="/" className="text-link">Run the calculator</Link>
           </div>
         </section>

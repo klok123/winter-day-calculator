@@ -11,7 +11,7 @@ export function SiteHeader() {
         </Link>
 
         <nav className="top-links" aria-label="Primary">
-          {SUPPORT_PAGES.map((page) => (
+          {SUPPORT_PAGES.filter((page) => page.showInHeader !== false).map((page) => (
             <Link key={page.href} href={page.href}>
               {page.navLabel || page.title}
             </Link>
