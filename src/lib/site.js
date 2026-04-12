@@ -78,6 +78,20 @@ export const SUPPORT_PAGES = [
     description: 'See why thin ice and freezing roads can trigger closures faster than raw snowfall totals.'
   },
   {
+    href: '/guides/what-parents-should-check-before-6-am',
+    title: 'What Parents Should Check Before 6 AM',
+    navLabel: 'Before 6 AM',
+    showInHeader: false,
+    description: 'A calm early-morning checklist for families who want to read the forecast without spiraling.'
+  },
+  {
+    href: '/guides/delay-vs-closure',
+    title: 'Delay vs Closure',
+    navLabel: 'Delay vs Closure',
+    showInHeader: false,
+    description: 'Understand why districts sometimes delay the start instead of canceling school completely.'
+  },
+  {
     href: '/contact-us',
     title: 'Contact Winter Day Calculator',
     navLabel: 'Contact',
@@ -400,6 +414,116 @@ export const POPULAR_LOCATIONS = [
     searchIntent: 'snow day calculator quebec city',
     reason: 'Quebec City often combines steep streets, fresh snow, and colder dawn temperatures into a sharper morning closure signal.',
     watchFor: ['Steep street travel', 'Fresh morning snow', 'Colder dawn temps'],
+    showOnHome: false
+  },
+  {
+    slug: 'binghamton-ny',
+    city: 'Binghamton',
+    region: 'New York',
+    regionCode: 'NY',
+    stateSlug: 'new-york',
+    searchIntent: 'snow day calculator binghamton ny',
+    reason: 'Binghamton often deals with hillier travel, overnight accumulation, and fast changes in road treatment needs before sunrise.',
+    watchFor: ['Hillier routes', 'Overnight accumulation', 'Cold morning roads'],
+    showOnHome: false
+  },
+  {
+    slug: 'allentown-pa',
+    city: 'Allentown',
+    region: 'Pennsylvania',
+    regionCode: 'PA',
+    stateSlug: 'pennsylvania',
+    searchIntent: 'snow day calculator allentown pa',
+    reason: 'Allentown can swing between wet snow, icy bridges, and commuter-route disruption in the same overnight system.',
+    watchFor: ['Bridge icing', 'Wet snow transitions', 'Morning commuter routes'],
+    showOnHome: false
+  },
+  {
+    slug: 'columbus-oh',
+    city: 'Columbus',
+    region: 'Ohio',
+    regionCode: 'OH',
+    stateSlug: 'ohio',
+    searchIntent: 'snow day calculator columbus ohio',
+    reason: 'Columbus school-morning risk often comes from refreeze and timing, especially when a large metro commute starts before roads recover.',
+    watchFor: ['Refreeze risk', 'Metro commute timing', 'Early road treatment'],
+    showOnHome: false
+  },
+  {
+    slug: 'ann-arbor-mi',
+    city: 'Ann Arbor',
+    region: 'Michigan',
+    regionCode: 'MI',
+    stateSlug: 'michigan',
+    searchIntent: 'snow day calculator ann arbor mi',
+    reason: 'Ann Arbor families often need a closer read on overnight snow, campus-area traffic, and colder dawn temperatures.',
+    watchFor: ['Campus traffic', 'Overnight snow', 'Colder dawn temps'],
+    showOnHome: false
+  },
+  {
+    slug: 'aurora-il',
+    city: 'Aurora',
+    region: 'Illinois',
+    regionCode: 'IL',
+    stateSlug: 'illinois',
+    searchIntent: 'snow day calculator aurora il',
+    reason: 'Aurora can see suburban road issues and early commuter overlap build faster than downtown Chicago conditions suggest.',
+    watchFor: ['Suburban roads', 'Commuter overlap', 'Refreeze pockets'],
+    showOnHome: false
+  },
+  {
+    slug: 'lowell-ma',
+    city: 'Lowell',
+    region: 'Massachusetts',
+    regionCode: 'MA',
+    stateSlug: 'massachusetts',
+    searchIntent: 'snow day calculator lowell ma',
+    reason: 'Lowell often sits in a colder inland pocket where slippery roads can outlast what coastal forecasts imply.',
+    watchFor: ['Inland cold pockets', 'Morning slippery roads', 'Rain-snow line shifts'],
+    showOnHome: false
+  },
+  {
+    slug: 'st-cloud-mn',
+    city: 'St. Cloud',
+    region: 'Minnesota',
+    regionCode: 'MN',
+    stateSlug: 'minnesota',
+    searchIntent: 'snow day calculator st cloud mn',
+    reason: 'St. Cloud can move from manageable snow to severe cold and difficult bus-route conditions before daybreak.',
+    watchFor: ['Severe cold', 'Bus-route conditions', 'Morning snow bursts'],
+    showOnHome: false
+  },
+  {
+    slug: 'eau-claire-wi',
+    city: 'Eau Claire',
+    region: 'Wisconsin',
+    regionCode: 'WI',
+    stateSlug: 'wisconsin',
+    searchIntent: 'snow day calculator eau claire wi',
+    reason: 'Eau Claire schools often need to weigh open-road drifting, colder dawns, and slick county routes all at once.',
+    watchFor: ['Open-road drifting', 'County route safety', 'Colder dawns'],
+    showOnHome: false
+  },
+  {
+    slug: 'hamilton-on',
+    city: 'Hamilton',
+    region: 'Ontario',
+    regionCode: 'ON',
+    stateSlug: 'ontario',
+    searchIntent: 'snow day calculator hamilton ontario',
+    reason: 'Hamilton can pick up a messy mix of snow, hills, and commuter disruption that changes the school-morning call quickly.',
+    watchFor: ['Escarpment travel', 'Mixed precipitation', 'Commuter disruption'],
+    showOnHome: false
+  },
+  {
+    slug: 'laval-qc',
+    city: 'Laval',
+    region: 'Quebec',
+    regionCode: 'QC',
+    stateSlug: 'quebec',
+    searchIntent: 'snow day calculator laval qc',
+    reason: 'Laval mornings can hinge on how fast overnight snow piles up and whether colder roads linger into the first commute.',
+    watchFor: ['Overnight snowfall', 'Colder road surfaces', 'Metro commute timing'],
     showOnHome: false
   }
 ];

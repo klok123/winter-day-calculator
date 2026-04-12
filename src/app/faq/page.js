@@ -104,6 +104,8 @@ export default function FaqPage() {
             <Link href="/methodology" className="text-link">See the methodology</Link>
             <Link href="/guides/preparing-for-snow-days" className="text-link">Read the family guide</Link>
             <Link href="/guides/how-schools-decide-snow-days" className="text-link">How districts decide</Link>
+            <Link href="/guides/delay-vs-closure" className="text-link">Delay vs closure</Link>
+            <Link href="/guides/what-parents-should-check-before-6-am" className="text-link">Before 6 AM checklist</Link>
             <Link href="/" className="text-link">Use the calculator</Link>
           </div>
         </section>

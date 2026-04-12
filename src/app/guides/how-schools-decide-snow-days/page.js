@@ -142,6 +142,8 @@ export default function HowSchoolsDecideSnowDaysPage() {
 
         <section className="content-section">
           <div className="inline-actions">
+            <Link href="/guides/delay-vs-closure" className="text-link">Delay vs closure explained</Link>
+            <Link href="/guides/what-parents-should-check-before-6-am" className="text-link">See the 6 AM checklist</Link>
             <Link href="/guides/snow-vs-ice-school-closures" className="text-link">Compare snow vs ice closures</Link>
             <Link href="/guides/preparing-for-snow-days" className="text-link">Read the family guide</Link>
             <Link href="/" className="text-link">Check your city</Link>

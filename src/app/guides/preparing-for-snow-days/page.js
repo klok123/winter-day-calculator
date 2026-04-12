@@ -148,6 +148,8 @@ export default function PreparingForSnowDaysPage() {
 
         <section className="content-section">
           <div className="inline-actions">
+            <Link href="/guides/what-parents-should-check-before-6-am" className="text-link">Use the before-6-AM checklist</Link>
+            <Link href="/guides/delay-vs-closure" className="text-link">Understand delay vs closure</Link>
             <Link href="/" className="text-link">Check your city</Link>
             <Link href="/faq" className="text-link">Read the FAQ</Link>
             <Link href="/methodology" className="text-link">See the methodology</Link>
