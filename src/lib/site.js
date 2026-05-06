@@ -92,6 +92,13 @@ export const SUPPORT_PAGES = [
     description: 'Understand why districts sometimes delay the start instead of canceling school completely.'
   },
   {
+    href: '/guides/winter-storm-warning-watch-advisory',
+    title: 'Winter Storm Warning vs Watch vs Advisory',
+    navLabel: 'Storm Alerts',
+    showInHeader: false,
+    description: 'Understand how common winter alerts can shape school closing risk before the morning decision.'
+  },
+  {
     href: '/press',
     title: 'Press and Resource Page',
     navLabel: 'Press',
@@ -531,6 +538,116 @@ export const POPULAR_LOCATIONS = [
     searchIntent: 'snow day calculator laval qc',
     reason: 'Laval mornings can hinge on how fast overnight snow piles up and whether colder roads linger into the first commute.',
     watchFor: ['Overnight snowfall', 'Colder road surfaces', 'Metro commute timing'],
+    showOnHome: false
+  },
+  {
+    slug: 'watertown-ny',
+    city: 'Watertown',
+    region: 'New York',
+    regionCode: 'NY',
+    stateSlug: 'new-york',
+    searchIntent: 'snow day calculator watertown ny',
+    reason: 'Watertown snow day risk can rise quickly when lake-effect bands settle over the North Country overnight.',
+    watchFor: ['Lake-effect bands', 'North Country roads', 'Blowing snow'],
+    showOnHome: false
+  },
+  {
+    slug: 'state-college-pa',
+    city: 'State College',
+    region: 'Pennsylvania',
+    regionCode: 'PA',
+    stateSlug: 'pennsylvania',
+    searchIntent: 'snow day calculator state college pa',
+    reason: 'State College can see school-morning risk build when central Pennsylvania hills, cold roads, and overnight snow line up.',
+    watchFor: ['Central PA hills', 'Cold road surfaces', 'Overnight snow'],
+    showOnHome: false
+  },
+  {
+    slug: 'youngstown-oh',
+    city: 'Youngstown',
+    region: 'Ohio',
+    regionCode: 'OH',
+    stateSlug: 'ohio',
+    searchIntent: 'snow day calculator youngstown ohio',
+    reason: 'Youngstown often sits close enough to lake-effect influence for small band shifts to change the early school outlook.',
+    watchFor: ['Lake-effect edges', 'Suburban route timing', 'Morning refreeze'],
+    showOnHome: false
+  },
+  {
+    slug: 'kalamazoo-mi',
+    city: 'Kalamazoo',
+    region: 'Michigan',
+    regionCode: 'MI',
+    stateSlug: 'michigan',
+    searchIntent: 'snow day calculator kalamazoo mi',
+    reason: 'Kalamazoo can pick up west Michigan snow bursts that make bus routes and early roads tougher than broader forecasts suggest.',
+    watchFor: ['West Michigan bursts', 'Bus-route safety', 'Early road treatment'],
+    showOnHome: false
+  },
+  {
+    slug: 'peoria-il',
+    city: 'Peoria',
+    region: 'Illinois',
+    regionCode: 'IL',
+    stateSlug: 'illinois',
+    searchIntent: 'snow day calculator peoria il',
+    reason: 'Peoria school-morning risk often depends on central Illinois timing, refreeze, and whether snow arrives before the commute.',
+    watchFor: ['Central Illinois timing', 'Refreeze risk', 'Morning commute overlap'],
+    showOnHome: false
+  },
+  {
+    slug: 'pittsfield-ma',
+    city: 'Pittsfield',
+    region: 'Massachusetts',
+    regionCode: 'MA',
+    stateSlug: 'massachusetts',
+    searchIntent: 'snow day calculator pittsfield ma',
+    reason: 'Pittsfield can run colder and snowier than eastern Massachusetts, making Berkshire school routes worth checking early.',
+    watchFor: ['Berkshire snowfall', 'Colder dawns', 'Hill-town travel'],
+    showOnHome: false
+  },
+  {
+    slug: 'mankato-mn',
+    city: 'Mankato',
+    region: 'Minnesota',
+    regionCode: 'MN',
+    stateSlug: 'minnesota',
+    searchIntent: 'snow day calculator mankato mn',
+    reason: 'Mankato snow day risk can rise when southern Minnesota snow, wind, and bitter morning temperatures overlap.',
+    watchFor: ['Southern Minnesota snow', 'Wind chill', 'Open-road drifting'],
+    showOnHome: false
+  },
+  {
+    slug: 'appleton-wi',
+    city: 'Appleton',
+    region: 'Wisconsin',
+    regionCode: 'WI',
+    stateSlug: 'wisconsin',
+    searchIntent: 'snow day calculator appleton wi',
+    reason: 'Appleton families often need to watch for Fox Valley road timing, blowing snow, and slick morning routes.',
+    watchFor: ['Fox Valley roads', 'Blowing snow', 'Slick morning routes'],
+    showOnHome: false
+  },
+  {
+    slug: 'barrie-on',
+    city: 'Barrie',
+    region: 'Ontario',
+    regionCode: 'ON',
+    stateSlug: 'ontario',
+    searchIntent: 'snow day calculator barrie ontario',
+    reason: 'Barrie can see lake-effect snow and highway travel concerns build quickly before school buses start moving.',
+    watchFor: ['Lake-effect snow', 'Highway travel', 'School-bus timing'],
+    showOnHome: false
+  },
+  {
+    slug: 'sherbrooke-qc',
+    city: 'Sherbrooke',
+    region: 'Quebec',
+    regionCode: 'QC',
+    stateSlug: 'quebec',
+    searchIntent: 'snow day calculator sherbrooke qc',
+    reason: 'Sherbrooke winter mornings can be shaped by fresh snow, colder road surfaces, and hillier local travel.',
+    watchFor: ['Fresh snowfall', 'Colder roads', 'Hillier routes'],
     showOnHome: false
   }
 ];
