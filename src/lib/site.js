@@ -99,6 +99,13 @@ export const SUPPORT_PAGES = [
     description: 'Understand how common winter alerts can shape school closing risk before the morning decision.'
   },
   {
+    href: '/guides/official-school-closing-alerts',
+    title: 'Official School Closing Alerts',
+    navLabel: 'Official Alerts',
+    showInHeader: false,
+    description: 'Know where to confirm a real school delay or closure after checking the forecast risk.'
+  },
+  {
     href: '/press',
     title: 'Press and Resource Page',
     navLabel: 'Press',
@@ -648,6 +655,116 @@ export const POPULAR_LOCATIONS = [
     searchIntent: 'snow day calculator sherbrooke qc',
     reason: 'Sherbrooke winter mornings can be shaped by fresh snow, colder road surfaces, and hillier local travel.',
     watchFor: ['Fresh snowfall', 'Colder roads', 'Hillier routes'],
+    showOnHome: false
+  },
+  {
+    slug: 'oswego-ny',
+    city: 'Oswego',
+    region: 'New York',
+    regionCode: 'NY',
+    stateSlug: 'new-york',
+    searchIntent: 'snow day calculator oswego ny',
+    reason: 'Oswego can see lake-effect snow intensify quickly enough to change the school-morning outlook overnight.',
+    watchFor: ['Lake-effect snow', 'Lake Ontario bands', 'Morning visibility'],
+    showOnHome: false
+  },
+  {
+    slug: 'utica-ny',
+    city: 'Utica',
+    region: 'New York',
+    regionCode: 'NY',
+    stateSlug: 'new-york',
+    searchIntent: 'snow day calculator utica ny',
+    reason: 'Utica school risk can rise when Mohawk Valley cold, snow bursts, and slick early roads line up before sunrise.',
+    watchFor: ['Mohawk Valley cold', 'Snow bursts', 'Slick early roads'],
+    showOnHome: false
+  },
+  {
+    slug: 'wilkes-barre-pa',
+    city: 'Wilkes-Barre',
+    region: 'Pennsylvania',
+    regionCode: 'PA',
+    stateSlug: 'pennsylvania',
+    searchIntent: 'snow day calculator wilkes barre pa',
+    reason: 'Wilkes-Barre often needs a local read on valley roads, hill routes, and overnight accumulation before school starts.',
+    watchFor: ['Valley roads', 'Hill routes', 'Overnight accumulation'],
+    showOnHome: false
+  },
+  {
+    slug: 'canton-oh',
+    city: 'Canton',
+    region: 'Ohio',
+    regionCode: 'OH',
+    stateSlug: 'ohio',
+    searchIntent: 'snow day calculator canton ohio',
+    reason: 'Canton can sit near lake-effect edges where small snow-band shifts affect suburban and rural school routes.',
+    watchFor: ['Lake-effect edges', 'Rural routes', 'Refreeze risk'],
+    showOnHome: false
+  },
+  {
+    slug: 'traverse-city-mi',
+    city: 'Traverse City',
+    region: 'Michigan',
+    regionCode: 'MI',
+    stateSlug: 'michigan',
+    searchIntent: 'snow day calculator traverse city mi',
+    reason: 'Traverse City snow day risk can build fast when lake-enhanced snow, wind, and colder road surfaces overlap.',
+    watchFor: ['Lake-enhanced snow', 'Wind-driven roads', 'Cold surfaces'],
+    showOnHome: false
+  },
+  {
+    slug: 'joliet-il',
+    city: 'Joliet',
+    region: 'Illinois',
+    regionCode: 'IL',
+    stateSlug: 'illinois',
+    searchIntent: 'snow day calculator joliet il',
+    reason: 'Joliet families often need to watch for suburban refreeze, commuter timing, and snow arriving before buses roll.',
+    watchFor: ['Suburban refreeze', 'Commuter timing', 'Bus-route conditions'],
+    showOnHome: false
+  },
+  {
+    slug: 'framingham-ma',
+    city: 'Framingham',
+    region: 'Massachusetts',
+    regionCode: 'MA',
+    stateSlug: 'massachusetts',
+    searchIntent: 'snow day calculator framingham ma',
+    reason: 'Framingham can see inland cold and commuter-route impacts that differ from coastal Massachusetts forecasts.',
+    watchFor: ['Inland cold', 'Commuter routes', 'Rain-snow shifts'],
+    showOnHome: false
+  },
+  {
+    slug: 'rochester-mn',
+    city: 'Rochester',
+    region: 'Minnesota',
+    regionCode: 'MN',
+    stateSlug: 'minnesota',
+    searchIntent: 'snow day calculator rochester mn',
+    reason: 'Rochester snow day risk can depend on southern Minnesota storm timing, open-road drifting, and cold dawn temperatures.',
+    watchFor: ['Southern Minnesota timing', 'Open-road drifting', 'Cold dawns'],
+    showOnHome: false
+  },
+  {
+    slug: 'wausau-wi',
+    city: 'Wausau',
+    region: 'Wisconsin',
+    regionCode: 'WI',
+    stateSlug: 'wisconsin',
+    searchIntent: 'snow day calculator wausau wi',
+    reason: 'Wausau can combine colder central Wisconsin mornings with fresh snow and longer school-route travel.',
+    watchFor: ['Central Wisconsin cold', 'Fresh snow', 'Longer routes'],
+    showOnHome: false
+  },
+  {
+    slug: 'sudbury-on',
+    city: 'Sudbury',
+    region: 'Ontario',
+    regionCode: 'ON',
+    stateSlug: 'ontario',
+    searchIntent: 'snow day calculator sudbury ontario',
+    reason: 'Sudbury winter mornings can turn difficult when fresh snow, deep cold, and school-bus timing overlap.',
+    watchFor: ['Deep cold', 'Fresh snowfall', 'School-bus timing'],
     showOnHome: false
   }
 ];
