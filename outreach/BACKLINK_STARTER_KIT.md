@@ -26,6 +26,8 @@ Get a small number of relevant, honest backlinks from places that already talk a
 - What Parents Should Check Before 6 AM: https://www.winterdaycalculator.com/guides/what-parents-should-check-before-6-am
 - Delay vs Closure: https://www.winterdaycalculator.com/guides/delay-vs-closure
 - Preparing for Snow Days: https://www.winterdaycalculator.com/guides/preparing-for-snow-days
+- Winter Storm Warning vs Watch vs Advisory: https://www.winterdaycalculator.com/guides/winter-storm-warning-watch-advisory
+- Official School Closing Alerts: https://www.winterdaycalculator.com/guides/official-school-closing-alerts
 - Press page: https://www.winterdaycalculator.com/press
 
 ## Best target categories
@@ -49,9 +51,20 @@ Examples:
 - school operations audience -> `/guides/how-schools-decide-snow-days`
 - winter hazard audience -> `/guides/snow-vs-ice-school-closures`
 - morning planning audience -> `/guides/what-parents-should-check-before-6-am`
+- weather alert audience -> `/guides/winter-storm-warning-watch-advisory`
+- official confirmation audience -> `/guides/official-school-closing-alerts`
+
+## Start with these files
+
+- `BACKLINK_TARGETS_2026-05.csv` has the target list and the page to pitch.
+- `FIRST_10_OUTREACH_EMAILS.md` has ready-to-send email drafts.
 
 ## Weekly target
 
 - 10 outreach emails per week
 - 2 to 3 follow-ups max
 - 1 useful relationship is better than 50 spam emails
+
+## Safety rule
+
+Do not buy bulk backlinks. Do not use automated link placement tools. One relevant, approved backlink from a real parent, school, safety, or local resource page is worth more than many spam links.

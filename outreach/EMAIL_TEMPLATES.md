@@ -67,3 +67,35 @@ If you think it would help your audience, feel free to include it as a resource.
 
 Thanks,
 [Your name]
+
+## Template 5: Local city page
+
+Subject: Local snow day forecast page for [City] families
+
+Hi,
+
+I saw your local winter/snow day content for [City] families and wanted to share a related resource:
+https://www.winterdaycalculator.com/prediction/[city-slug]
+
+It gives a forecast-based snow day risk estimate and explains which local winter factors matter most.
+
+If it feels useful for your readers, please feel free to mention it.
+
+Thanks,
+[Your name]
+
+## Template 6: Official alert confirmation angle
+
+Subject: Family resource on confirming school closing alerts
+
+Hi,
+
+I came across your school closure or winter weather information page. I run Winter Day Calculator, and we published a short guide that reminds families where to confirm official school closing alerts:
+https://www.winterdaycalculator.com/guides/official-school-closing-alerts
+
+It clearly explains that district websites, text alerts, and official channels are the final source.
+
+If it is useful for families, please feel free to reference it.
+
+Thanks,
+[Your name]
